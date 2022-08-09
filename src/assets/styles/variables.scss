@@ -1,0 +1,50 @@
+@use "sass:map";
+
+$lighterGreen: rgba(73, 123, 85, 0.5);
+$green: #497b55;
+$darkerGreen: #607B54;
+$grey: #ADA29A;
+
+$body-bg: #fff;
+$body-color: #222222;
+
+$input-border-radius: 0;
+$input-btn-focus-box-shadow: none;
+$input-btn-focus-width: 0;
+$font-family-base: "Poppins";
+$font-size-base: 1.06rem;
+$font-weight-normal: 500;
+$line-height-base: 1.5;
+$form-check-label-color: $grey;
+
+$theme-colors: (
+  "primary": $green,
+  "secondary": #fff,
+  "lighterGreen": $lighterGreen,
+  "darkerGreen": $darkerGreen,
+  "grey": $grey,
+  "almostBlack": #222222,
+);
+
+$container-max-widths: (
+  sm: 500px,
+  md: 700px,
+  lg: 900px,
+  xl: 1040px,
+  xxl: 1120px,
+);
+
+$utilities: (
+  "width": (
+    property: width,
+    class: w,
+    values: (
+      25: 25%,
+      40: 40%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
+);
